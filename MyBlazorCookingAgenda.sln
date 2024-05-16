@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorCookingAgenda.Server", "MyBlazorCookingAgenda\Server\MyBlazorCookingAgenda.Server.csproj", "{A8D3B4F7-20F7-4B82-9B83-D0DB3BBB335E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorCookingAgenda.Client", "MyBlazorCookingAgenda\Client\MyBlazorCookingAgenda.Client.csproj", "{9735C183-C68F-48CC-8D28-98DE260504A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorCookingAgenda.Shared", "MyBlazorCookingAgenda\Shared\MyBlazorCookingAgenda.Shared.csproj", "{8F9A4CCD-C88A-4956-82FB-33CC5EAFCB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06B00F6B-2055-457A-ACEC-3CF9DA4C3F0C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D3B4F7-20F7-4B82-9B83-D0DB3BBB335E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D3B4F7-20F7-4B82-9B83-D0DB3BBB335E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D3B4F7-20F7-4B82-9B83-D0DB3BBB335E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D3B4F7-20F7-4B82-9B83-D0DB3BBB335E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9735C183-C68F-48CC-8D28-98DE260504A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9735C183-C68F-48CC-8D28-98DE260504A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9735C183-C68F-48CC-8D28-98DE260504A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9735C183-C68F-48CC-8D28-98DE260504A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9A4CCD-C88A-4956-82FB-33CC5EAFCB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9A4CCD-C88A-4956-82FB-33CC5EAFCB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9A4CCD-C88A-4956-82FB-33CC5EAFCB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9A4CCD-C88A-4956-82FB-33CC5EAFCB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyBlazorCookingAgenda.Server.props" />
+</Project>

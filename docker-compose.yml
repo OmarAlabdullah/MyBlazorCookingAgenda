@@ -1,0 +1,8 @@
+﻿services:
+  myblazorcookingagenda.server:
+    image: myblazorcookingagenda.server
+    build:
+      context: .
+      dockerfile: MyBlazorCookingAgenda/Server/Dockerfile
+    ports:
+      - 8999:80
